@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 20px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Arial Black', Gadget, sans-serif; /* Font khác cho logo */
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+}
+
+.menu-item {
+  cursor: pointer;
+  font-weight: 500;
+  color: #333;
+  padding-bottom: 4px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.menu-item:hover {
+  color: #007bff;
+}
+
+.menu-item.active {
+  border-bottom-color: #007bff;
+  color: #007bff;
+  font-weight: 700;
+}

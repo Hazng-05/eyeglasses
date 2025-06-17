@@ -1,0 +1,34 @@
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: 'Georgia', serif;
+}
+
+.contact-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.contact-text h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-text p {
+  margin: 4px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.contact-email, .contact-phone {
+  font-weight: 500;
+}

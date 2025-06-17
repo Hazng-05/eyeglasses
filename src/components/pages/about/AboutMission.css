@@ -1,0 +1,46 @@
+.about-mission {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.mission-item {
+  max-width: 300px;
+  margin: 20px;
+}
+
+.title-with-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.title-with-icon h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.mission-item p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.mission-item ul {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #333;
+  margin-top: 0;
+}

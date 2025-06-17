@@ -1,0 +1,39 @@
+.about-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  flex-wrap: wrap;
+}
+
+.intro-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.intro-left h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.intro-left p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.intro-right {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-right img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+}

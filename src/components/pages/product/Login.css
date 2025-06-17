@@ -1,0 +1,88 @@
+.login-container {
+  background-color: #f9f6f1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.welcome-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #111;
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+
+.login-form {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.form-subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+.login-form label {
+  font-size: 14px;
+  color: #222;
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 16px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #acacac; /* vàng be thương hiệu */
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #aaa9a7;
+}
+
+.redirect-text {
+  font-size: 13px;
+  color: #555;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.redirect-text span {
+  color: #ff0000;
+  text-decoration: underline;
+  cursor: pointer;
+}

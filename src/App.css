@@ -1,0 +1,22 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* App.css */
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Đảm bảo footer đẩy xuống đáy khi nội dung không đủ */
+.footer {
+  margin-top: auto;
+  padding: 16px;
+  text-align: center;
+  background-color: #f2f2f2;
+  color: #333;
+}
